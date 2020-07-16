@@ -1,0 +1,14 @@
+➜  apollo-client dir 
+npm init
+npm install parcel-bundler@1.9.7 --only=dev
+
+
+// how we can communicate with our graphql application from the browser
+// for this
+// 1.How do we define an operation in javascript?
+// 2.How do we send that off to the server to fetch a response? 
+// 3.How do we access the response
+
+npm i apollo-boost@0.1.14 graphql@14.0.2 
+apollo-boost -> allows us to fire of those operations   
+graphql -> makes it possible for us to define graphql opeatrion in javascript
